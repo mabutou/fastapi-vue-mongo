@@ -17,6 +17,10 @@ app = FastAPI(title="mc's VPS API",
 #: Configure COR
 origins = [
     "http://localhost:8080",
+    "http://huawei:8080",
+    "http://huawei:5500",
+    "http://121.37.9.206:8080",
+    "http://192.168.10.23:9528",
 ]
 
 app.add_middleware(
